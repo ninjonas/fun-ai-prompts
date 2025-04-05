@@ -1,5 +1,11 @@
-import { stylistTones } from "./stylistTone";
-
+export const stylistTones = {
+  "Hype Bestie": ["fun", "affirming", "high-energy"],
+  "Soft Minimalist": ["calm", "clean", "grounded"],
+  "Bold Trendsetter": ["confident", "fashion-forward", "edgy"],
+  "Spiritual Stylist": ["poetic", "intuitive", "aligned with energy"],
+  "Thoughtful Curator": ["analytical", "intentional", "refined"],
+  "Cozy Comfort Coach": ["gentle", "warm", "casual"],
+};
 export class OnboardingData {
   constructor(public question: string, public options: string[], public nextStep: string) {}
 }
@@ -11,8 +17,12 @@ export const onboardingSteps = [
   new OnboardingData("How do you want your outfit to make you feel?", ["Confident", "Relaxed", "Attractive", "Powerful", "Carefree"], "/onboarding/steps/5"),
   new OnboardingData(
     "How do you usually decide on your outfit?",
-    ["By vibe", "By practicality", "Based on weather", "Planned ahead", "Spontaneously"],
+    ["By vibe", "By practicality", "Based on weather", "Planned ahead", "Spontaneously", "By what my body looks like, ATM"],
     "/onboarding/steps/6"
   ),
-  new OnboardingData("Pick your stylist (or mix a few)", Object.keys(stylistTones), "/onboarding/complete"),
+  new OnboardingData(
+    "Pick your stylist (or mix a few)",
+    Object.entries(stylistTones).map(([stylist, tones]) => `${stylist}: ${tones.join(", ")}`),
+    "/onboarding/complete"
+  ),
 ];

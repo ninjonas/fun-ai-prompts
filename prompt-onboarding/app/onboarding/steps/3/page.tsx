@@ -1,6 +1,5 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import OnboardingStep from "../../../../components/OnboardingStep";
 import { onboardingSteps } from "../../../../lib/onboardingData";
 

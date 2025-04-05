@@ -1,0 +1,119 @@
+categories:
+  - name: Tops
+    subcategories:
+      - name: T-Shirts
+        items:
+          - name: Example T-Shirt
+            brand: Example Brand
+            fit: Regular
+            color: Red
+            price_tier: $
+            size: M
+            material: Cotton
+      - name: Shirts
+        items:
+          - name: Example Shirt
+            brand: Example Brand
+            fit: Slim
+            color: Blue
+            price_tier: $$
+            size: L
+            material: Linen
+  - name: Bottoms
+    subcategories:
+      - name: Jeans
+        items:
+          - name: Example Jeans
+            brand: Example Brand
+            fit: Skinny
+            color: Black
+            price_tier: $$
+            size: 32
+            material: Denim
+      - name: Shorts
+        items:
+          - name: Example Shorts
+            brand: Example Brand
+            fit: Regular
+            color: Khaki
+            price_tier: $
+            size: M
+            material: Cotton
+  - name: Outerwear
+    subcategories:
+      - name: Jackets
+        items:
+          - name: Example Jacket
+            brand: Example Brand
+            fit: Regular
+            color: Green
+            price_tier: $$
+            size: L
+            material: Polyester
+      - name: Coats
+        items:
+          - name: Example Coat
+            brand: Example Brand
+            fit: Oversized
+            color: Grey
+            price_tier: $$$
+            size: XL
+            material: Wool
+  - name: Footwear
+    subcategories:
+      - name: Sneakers
+        items:
+          - name: Example Sneakers
+            brand: Example Brand
+            fit: Regular
+            color: White
+            price_tier: $$
+            size: 10
+            material: Leather
+      - name: Boots
+        items:
+          - name: Example Boots
+            brand: Example Brand
+            fit: Regular
+            color: Brown
+            price_tier: $$$
+            size: 9
+            material: Suede
+  - name: Accessories
+    subcategories:
+      - name: Necklaces
+        items:
+          - name: Example Necklace
+            brand: Example Brand
+            fit: null
+            color: Gold
+            price_tier: $$$
+            size: null
+            material: Gold
+      - name: Watches
+        items:
+          - name: Example Watch
+            brand: Example Brand
+            fit: null
+            color: Silver
+            price_tier: $$$
+            size: null
+            material: Stainless Steel
+      - name: Sunglasses
+        items:
+          - name: Example Sunglasses
+            brand: Example Brand
+            fit: null
+            color: Black
+            price_tier: $$
+            size: null
+            material: Plastic
+      - name: Bags
+        items:
+          - name: Example Bag
+            brand: Example Brand
+            fit: null
+            color: Brown
+            price_tier: $$$
+            size: null
+            material: Leather
